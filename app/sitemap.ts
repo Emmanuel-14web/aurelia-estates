@@ -1,0 +1,1 @@
+import type{MetadataRoute}from"next";export default function sitemap():MetadataRoute.Sitemap{return["","properties","properties/ocean-house","buy","sell","neighborhoods","about","agents","journal","contact","privacy"].map(x=>({url:`https://aurelia-estates.example/${x}`,lastModified:new Date()}))}

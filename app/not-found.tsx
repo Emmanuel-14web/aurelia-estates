@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="notfound"><p className="eyebrow">404 • BEYOND THE MAP</p><h1>This address is not in our collection.</h1><Link href="/" className="button light">Return home</Link></main>}
